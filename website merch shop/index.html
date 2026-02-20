@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lccb merch Shop</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #bbdefb;
+}
+
+.hero {
+    background: linear-gradient(to right, #1976d2, #42a5f5);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.products {
+    padding: 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+    color: #0d47a1;
+}
+
+.price {
+    color: #1976d2;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+button {
+    background: #0d47a1;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>LCCB Merch Shop</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to LCCB Merch Shop</h2>
+    <p>Quality Products at Affordable Prices</p>
+</section>
+
+<section class="products">
+
+    <div class="product-card">
+        <img src="kas3.jpg" alt="Product">
+        <h3>LCCB CAP</h3>
+        <p class="price">₱300`</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="kas.jpg.jfif" alt="Product">
+        <h3>Shirt</h3>
+        <p class="price">₱250</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="kas2.jpg" alt="Product">
+        <h3>Lccb Totebag
+        </h3>
+        <p class="price">₱99</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 LccB Merch Shop | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
